@@ -1,0 +1,28 @@
+{
+    "en" : {
+        "title": "Title",
+        "id": "ID",
+        "name":"NAME",
+        "price":"Price",
+        "details":"DETAILS",
+        "imgs" :"IMGS",
+        "color "  :"COLOR",
+        "memory ":"MEMORY",
+        "repertory" :"REPERTORY",
+        "type"  : "TYPE",
+        "delete":"DELETE"
+    },
+    "cn" : {
+        "title": "标题",
+        "id": "索引",
+        "name":"产品名",
+        "price":"价格",
+        "details":"详情",
+        "imgs" :"图片",
+        "color "  :"颜色",
+        "memory ":"内存",
+        "repertory" :"库存",
+        "type"  : "分类",
+        "delete":"删除"
+    }
+}

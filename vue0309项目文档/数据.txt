@@ -1,0 +1,50 @@
+﻿手机						
+
+name				price		details						img-src
+小米6 4GB+64GB			2099		变焦双摄，4 轴防抖，骁龙835 处理器		//i1.mifile.cn/a1/pms_1510019402.48089978!220x220.jpg
+小米MIX 2 全陶瓷尊享版		4299		全面屏2.0，Unibody 全陶瓷			//i1.mifile.cn/a1/pms_1509723338.05097112!220x220.jpg
+小米Note 3 4GB+64GB		1799		1600万美颜自拍，2倍变焦双摄			//i1.mifile.cn/a1/pms_1511228654.33099308!220x220.jpg
+小米5X 4GB+64GB			1399		光学变焦双摄，拍人更美				//i1.mifile.cn/a1/pms_1508850965.67096774!220x220.jpg
+红米5A 2GB内存			599		8天超长待机，137g轻巧机身			//i1.mifile.cn/a1/pms_1508125822.19716710!220x220.jpg
+红米4A 16GB			499		轻盈磨砂质感，3120mAh 大电池			//i1.mifile.cn/a1/pms_1492069048.69778776!220x220.jpg
+
+电视
+
+name				price		details						img-src
+小米电视4A 43英寸          	1899		全高清 HDR，64位处理器				//i8.mifile.cn/b2c-mimall-media/50374206c0ef112bc9a607256f0806b6.jpg
+小米电视4A 32英寸		999		64位处理器，高清智能电视			//i8.mifile.cn/b2c-mimall-media/5f7afe654efeca5b8b1b6323371586ba.jpg
+小米电视4C 55英寸		2799		4K HDR 人工智能系统				//i8.mifile.cn/b2c-mimall-media/5f94baf32ad3492c9339162541f18803.jpg
+小米电视4C 43英寸		1799		超窄边，高清智能电视				//i8.mifile.cn/b2c-mimall-media/0d6e8c8aead10b2691cea748c84af194.jpg	
+小米电视4A 40英寸		1699		4K HDR，人工智能语音系统			//i8.mifile.cn/b2c-mimall-media/58228f31478d9e6a1bbb8dba02c61561.jpg
+小米电视4A 50英寸		2399		高清液晶屏，第6代画质引擎			//i8.mifile.cn/b2c-mimall-media/3d1538693661d2c28aa76cbc942dd187.jpg
+
+家电
+
+name				price		details						img-src
+米家空气净化器MAX		1999		经典再升级，好空气看得见			//i8.mifile.cn/b2c-mimall-media/67bb56dafd1299fb937ea428d73ccb9b.jpg
+米家电磁炉			299		大空间，快循环					//i8.mifile.cn/b2c-mimall-media/a8c7e3865faf62114919b8921ee2edb1.jpg
+米家IH电饭煲 3L			389		适用大面积，先进静音技术			//i8.mifile.cn/b2c-mimall-media/3e9d96ae7349a448836922e8ad942d93.jpg
+知吾煮不锈钢汤锅 米家定制	249		双频火力，精准控温				//i8.mifile.cn/b2c-mimall-media/5683098dbfd5b212ace02b5d8d3e95ad.jpg
+小米净水器（厨下式）		1899		精材制作，与家人享受美味时光			//i8.mifile.cn/b2c-mimall-media/f99dd94ad9f8d6aa75742691755d9d2c.jpg
+
+笔记本
+
+name				price		details						img-src
+13.3"笔记本i7 独显		5999		指纹解锁，全金属机身				//i8.mifile.cn/b2c-mimall-media/b9fc66e90debc7e776b6475c96305672.jpg
+15.6"笔记本i7 8GB		6199		全新第八代处理器				//i8.mifile.cn/b2c-mimall-media/3b9c835ee87f24335edacbcd0023ff90.jpg
+13.3"笔记本i5 独显		4999		第8代四核i7处理器，独显MX150			//i8.mifile.cn/b2c-mimall-media/a20dc22f36750ae93eb51dfb579cd7bd.jpg
+15.6"笔记本i7 16GB		6999		四核增强版，带独立显卡的轻薄笔记本		//i8.mifile.cn/b2c-mimall-media/c1bd4b3affc9c7af5b2844776049759c.jpg
+
+name				price		details						img-src
+小米路由器 3G			249		双核双千兆，上网很快				//i8.mifile.cn/b2c-mimall-media/88184ecbbf289180ef3ffb1abe7ec8b7.jpg
+小米路由器3A			139		一台覆盖更广的双频路由器			//i8.mifile.cn/b2c-mimall-media/6920ef747573ca14ef1c662c8e10737c.jpg
+小米路由器Pro			469		全新一代智能家庭中心				//i8.mifile.cn/b2c-mimall-media/f49bdc8faade883204ff79b29be0e6c0.jpg
+小米路由器HD			1299		智能家庭中心 内置1TB硬盘			//i8.mifile.cn/b2c-mimall-media/5d3c32c76a6ed7d7cb31d37dc8c054a5.jpg
+
+耳机
+
+name				price		details						img-src
+小米圈铁耳机Pro			129		防水防汗，7小时播放				//i8.mifile.cn/b2c-mimall-media/2026bb2471b772bf9712c71829a8dcac.jpg
+降噪耳机Type-C版		169		迷你机身, 小如蚕豆				//i8.mifile.cn/b2c-mimall-media/971035fe271fc225f7391deda443890e.jpg
+小米运动蓝牙耳机				59		6.5 克轻巧，高清通话音质	//i8.mifile.cn/b2c-mimall-media/e265a48c12d7c14a9d750ce697cc7263.jpg
+小米运动蓝牙耳机mini		89		尽享无线音乐					//i8.mifile.cn/b2c-mimall-media/340834104c7851b0c4856c12057572bc.jpg

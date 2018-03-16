@@ -1,0 +1,26 @@
+商品表: 
+	表名：shop
+	商品id => id 
+	商品名 => name
+	商品价格 =>price
+	商品特点 =>details
+	商品图片路径 => imgs
+	商品颜色 => color
+	商品内存大小 => memory
+	商品库存 => repertory 
+用户管理表：
+	表名：users
+	用户注册时添加，
+	格式：  username:用户名
+		pwd:用户密码
+	
+管理员表：
+	表名：Administrator
+	用户名：自己的姓氏拼音
+	密码：123456
+订单表：
+	表名：orders
+	内容与商品表一致，不传参即为空。
+购物车表:
+	表名: shopcar
+	内容属性与商品表一致
