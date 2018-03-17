@@ -24,7 +24,7 @@
                 <th v-for="(val, key) in dataset[0]" v-if="config.cols.indexOf(key) > -1">
                     {{key}}
                 </th>
-                <th>delete</th>
+                <th></th>
             </tr>
         </thead>
         <tbody>

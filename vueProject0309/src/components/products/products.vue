@@ -76,13 +76,14 @@
             </div>          
     </fieldset>
 
+    <h3>{{$store.state.header.lanType}}</h3>
     <table class="table table-striped text-center" :config="config">
         <thead>
             <tr>
-                <th v-for="(val, key) in dataset[0]">
-                    {{key}}
+                <th v-for="(val, key) in dataset[0]" v-if="config.cols.indexOf(key) > -1">
+                    {{dictionary[$store.state.header.lanType][key] || key}}
                 </th>
-                <th>delete</th>
+                <th></th>
             </tr>
         </thead>
         <tbody>
@@ -110,8 +111,12 @@
 </template>
 
 <script>
+    //0317创建一个引入--axios
+    import axios from 'axios'
+    //0317引入对应的语言包----应用了vuex就会被取代
+    //import common from '../../common/common.js'
 
-    import common from '../../common/common.js'
+
     import './products.css'
 
     //axios的ajax请求的二次封装httpclient
@@ -142,8 +147,12 @@
                     repertory:'',
                     type:''
                 },
+                // 0317加入字典对象
                 dictionary: {},
-                lanType: common.lanType,
+                //lanType: 'en',最后会被vuex的$store.state.header.lanType所代替
+                //
+                //
+                //
                 //盛放后端请求过来的数据的容器dataset
                 dataset: [] ,
                 //动态生成产品类型--使用下拉框表单元素
@@ -165,7 +174,7 @@
                     //默认查找全部信息                   
                     params:{},
 
-                    cols:['id','name', 'price', 'details', 'imgs', 'color', 'memory', 'repertory', 'type']
+                    cols:['id', 'name', 'price', 'details', 'imgs', 'color', 'memory', 'repertory', 'type']
                 }
             }
         },
@@ -244,15 +253,21 @@
             if(!dktoken){
                 router.push('/login');
             };
-
-
-
             //发起请求前为显示加载中
             this.display = true;
+
+            // 0317在这里创建仅仅是为了获取字典翻译
+            // 注意一下要将整一个网址输入到浏览器测试一下是否可以连接，下面的端口8899就是本Vue项目自己在package.json定义的端口，必须一致
+            axios.get('http://localhost:8899/src/dictionary/common.txt').then((res)=>{
+                //console.log(res);
+                this.dictionary = res.data;
+                //以上操作你就可以获取当前字典类型，但是这是静态的资源，您还需要实现动态资源切换才行
+                //涉及到跨组件通信操作
+            })
             
 
             http.post("http://localhost:8080/pageidx", {page: this.pageidx}).then((res)=>{
-                console.log(res);
+                //console.log(res);
                 this.dataset = res.data.data;
                 this.display = false;
             })  

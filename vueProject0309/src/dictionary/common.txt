@@ -1,13 +1,13 @@
 {
     "en" : {
         "title": "Title",
-        "id": "ID",
+        "id": "id",
         "name":"NAME",
         "price":"Price",
         "details":"DETAILS",
         "imgs" :"IMGS",
-        "color "  :"COLOR",
-        "memory ":"MEMORY",
+        "color"  :"COLOR",
+        "memory":"MEMORY",
         "repertory" :"REPERTORY",
         "type"  : "TYPE",
         "delete":"DELETE"
@@ -19,8 +19,8 @@
         "price":"价格",
         "details":"详情",
         "imgs" :"图片",
-        "color "  :"颜色",
-        "memory ":"内存",
+        "color"  :"颜色",
+        "memory":"内存",
         "repertory" :"库存",
         "type"  : "分类",
         "delete":"删除"
